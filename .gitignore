@@ -1,0 +1,85 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE / Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Python packaging
+# ==============================
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ==============================
+# Testing / Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+
+# ==============================
+# Model / ML generated files
+# ==============================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+
+# ==============================
+# Generated cleaned datasets
+# ==============================
+dataset/**/cleaned_*.tsv
+
+# Dataset
+dataset/**
